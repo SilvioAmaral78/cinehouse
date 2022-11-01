@@ -62,15 +62,15 @@ const buscarFilme = (codigoParametro) => catalogo.find((filme) => filme.codigo =
     console.log(listarFilmesComLongaDuracao())
 
 
-    // console.log(alterarStatusEmCartaz(1, buscarFilme))
-    // listarTodosOsFilmesEmCartaz()
-    // adicionarFilme({ 
-    // codigo: 6, 
-    // titulo: "O Poderoso Chefão",
-    // atores: ["Marlon Brando", "Al Pacino", "James Caan"],
-    // duracao: 3.5,
-    // anoDeLancamento: 1972
-    // })
+    console.log(alterarStatusEmCartaz(1, buscarFilme))
+    listarTodosOsFilmesEmCartaz()
+    adicionarFilme({ 
+    codigo: 6, 
+    titulo: "O Poderoso Chefão",
+    atores: ["Marlon Brando", "Al Pacino", "James Caan"],
+    duracao: 3.5,
+    anoDeLancamento: 1972
+    })
 
 
   // chamar a função de listar os filmes aqui depois de chamar a função de adicionar
